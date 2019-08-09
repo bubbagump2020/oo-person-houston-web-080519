@@ -90,6 +90,11 @@ class Person
     elsif topic == "weather"
       @happiness += 1
       friend.happiness += 1
+      if @happiness > 10
+        self.happiness=(@happiness)
+        elsif friend.happiness > 10
+        friend.happiness=(friend.happiness)
+      end
       return "blah blah sun blah rain"
     end
   end
