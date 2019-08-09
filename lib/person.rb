@@ -50,7 +50,7 @@ class Person
       puts "♪ Rub-a-dub just relaxing in the tub ♫"
       self.hygiene=(@hygiene)
     else
-      puts "♪ Rub-a-dub just relaxing in the tub ♫"
+      return "♪ Rub-a-dub just relaxing in the tub ♫"
     end
   end
   
