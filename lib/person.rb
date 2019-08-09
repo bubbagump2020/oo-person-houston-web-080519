@@ -13,7 +13,6 @@ class Person
   end
   
   def happiness=(happiness_level)
-   
     @happiness = happiness_level
     if happiness_level > 10 
       @happiness = 10
@@ -21,6 +20,10 @@ class Person
         @happiness = 0
     end
     return @happiness
+  end
+  
+  def hygiene=(hygiene_level)
+    @hygiene = hygiene_level
   end
   
 end
