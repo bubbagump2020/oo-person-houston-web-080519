@@ -31,4 +31,8 @@ class Person
     end
   end
   
+  def happy?
+    
+  end
+  
 end
