@@ -19,4 +19,8 @@ class Person
     return @happiness
   end
   
+  def happiness
+    return @happiness
+  end
+  
 end
