@@ -45,10 +45,9 @@ class Person
   end
   
   def take_bath
-    cleanliness = @hygiene + 4
-    if cleanliness > 10
+    @hygiene += 4
+    if @hygiene > 10
       self.hygiene=(cleanliness)
-      @hygiene = cleanliness
     else
       @hygiene = cleanliness
     end
