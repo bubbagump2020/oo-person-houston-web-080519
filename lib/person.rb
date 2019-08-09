@@ -63,7 +63,7 @@ class Person
     if @happiness > 10
       self.happiness=(@happiness)
     end
-    return
+    return "♪ another one bites the dust ♫"
   end
   
 end
