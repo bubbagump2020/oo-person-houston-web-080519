@@ -49,6 +49,8 @@ class Person
     if cleanliness > 10
       self.hygiene=(cleanliness)
       @hygiene = cleanliness
+    else
+      @hygiene = cleanliness
     end
     return "♪ Rub-a-dub just relaxing in the tub ♫"
     
