@@ -96,6 +96,7 @@ class Person
         friend.happiness=(friend.happiness)
       end
       return "blah blah sun blah rain"
+      
     end
   end
   
