@@ -81,7 +81,13 @@ class Person
     if topic == "politics"
       @happiness -= 2
       friend.happiness -= 2
+      if @happiness < 0
+        self.happiness=(@happiness)
+        elsif friend.happiness < 0
+        friend.happiness=(friend.happiness)
+      end
       return "blah blah partisan blah lobbyist"
+      
     end
   end
   
