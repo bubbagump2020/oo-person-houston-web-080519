@@ -77,4 +77,8 @@ class Person
     return "Hi #{friend.name}! It's #{@name}. How are you?"
   end
   
+  def start_conversation
+    
+  end
+  
 end
