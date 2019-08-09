@@ -57,8 +57,11 @@ class Person
   def work_out
     @hygiene -= 3
     @happiness += 2
-    if @hygiene < 0
+    if @hygiene < 0 
       self.hygiene=(@hygiene)
+    end
+    if @happiness > 10
+      self.happiness=(@happiness)
     end
   end
   
