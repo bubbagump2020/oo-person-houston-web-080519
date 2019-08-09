@@ -66,4 +66,8 @@ class Person
     return "♪ another one bites the dust ♫"
   end
   
+  def call_friend(friend)
+    
+  end
+  
 end
