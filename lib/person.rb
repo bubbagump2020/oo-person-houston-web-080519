@@ -13,7 +13,7 @@ class Person
   
   def happiness=(happiness_level)
    
-    happiness_level = @happiness
+    @happiness = happiness_level
     if happiness_level > 10 
       @happiness = 10
     end
