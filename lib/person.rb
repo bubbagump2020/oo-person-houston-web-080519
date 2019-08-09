@@ -55,7 +55,7 @@ class Person
   end
   
   def work_out
-    
+    @hygiene -= 3
   end
   
 end
