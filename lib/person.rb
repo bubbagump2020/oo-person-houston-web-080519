@@ -51,7 +51,7 @@ class Person
     else
       return @hygiene
     end
-    return "♪ Rub-a-dub just relaxing in the tub ♫"
+    puts "♪ Rub-a-dub just relaxing in the tub ♫"
     
   end
   
