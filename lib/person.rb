@@ -56,6 +56,9 @@ class Person
   
   def work_out
     @hygiene -= 3
+    if @hygiene < 0
+      self.hygiene=(@hygiene)
+    end
   end
   
 end
