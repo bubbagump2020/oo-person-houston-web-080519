@@ -49,7 +49,7 @@ class Person
     if @hygiene > 10
       self.hygiene=(cleanliness)
     else
-      @hygiene = cleanliness
+      return @hygiene
     end
     return "♪ Rub-a-dub just relaxing in the tub ♫"
     
