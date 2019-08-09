@@ -96,7 +96,8 @@ class Person
         friend.happiness=(friend.happiness)
       end
       return "blah blah sun blah rain"
-      
+    elsif topic != "politics" || topic != "weather"
+      return "blah blah blah blah blah"
     end
   end
   
