@@ -16,6 +16,8 @@ class Person
     @happiness = happiness_level
     if happiness_level > 10 
       @happiness = 10
+      elsif happiness_level < 0
+        @happiness = 0
     end
     return @happiness
   end
