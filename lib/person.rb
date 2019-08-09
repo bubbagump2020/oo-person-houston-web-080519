@@ -51,7 +51,6 @@ class Person
       self.hygiene=(@hygiene)
     else
       puts "♪ Rub-a-dub just relaxing in the tub ♫"
-      return @hygiene
     end
   end
   
