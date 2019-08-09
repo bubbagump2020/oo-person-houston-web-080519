@@ -69,6 +69,11 @@ class Person
   def call_friend(friend)
     @happiness += 3
     friend.happiness += 3
+    if @happiness > 10
+      self.happiness=(@happiness)
+      elsif friend.happiness > 10
+      friend.happiness=(friend.happiness)
+    end
   end
   
 end
