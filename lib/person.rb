@@ -63,6 +63,7 @@ class Person
     if @happiness > 10
       self.happiness=(@happiness)
     end
+    return
   end
   
 end
