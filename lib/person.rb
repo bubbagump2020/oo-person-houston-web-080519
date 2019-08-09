@@ -11,7 +11,7 @@ class Person
     @happiness = 8
   end
   
-  def happiness_index=(happiness_level)
+  def happiness=(happiness_level)
    
     happiness_level = @happiness
     if happiness_level > 10 
