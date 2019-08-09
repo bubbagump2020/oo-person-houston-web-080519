@@ -27,7 +27,7 @@ class Person
     if hygiene_level > 10
       @hygiene = 10
       elsif hygiene_level < 0
-      @hygien = 0
+      @hygiene = 0
     end
   end
   
