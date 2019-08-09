@@ -18,5 +18,6 @@ class Person
     end
     @happiness = happiness
     return @happiness
+  end
   
 end
