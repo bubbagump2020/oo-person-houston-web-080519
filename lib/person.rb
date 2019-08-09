@@ -35,4 +35,8 @@ class Person
     @happiness > 7 ? true : false
   end
   
+  def hygiene?
+    @hygiene > 7 ? true : false
+  end
+  
 end
