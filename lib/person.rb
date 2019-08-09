@@ -11,4 +11,12 @@ class Person
     @happiness = 8
   end
   
+  def happiness_index(happiness)
+    happiness = @happiness
+    if happiness > 10 
+      happiness = 10
+    end
+    @happiness = happiness
+    return @happiness
+  
 end
