@@ -13,7 +13,7 @@ class Person
   
   def happiness_index=(happiness)
     happiness = @happiness
-    if @happiness > 10 
+    if happiness > 10 
       @happiness = 10
     end
     return @happiness
